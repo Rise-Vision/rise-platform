@@ -1,0 +1,20 @@
+﻿{
+  "manifest_version": 2,
+  "name": "Rise Platform - QA",
+  "description": "Free to use and manage an unlimited number of displays anywhere in the world.",
+  "app": {
+      "launch": {
+         "web_url": "http://rva.risevision.com/"
+      },
+      "urls": [ "*://rva.risevision.com/" ]
+   },
+   "author": {
+      "email": "support@risevision.com"
+   },
+  "version": "1.8.3",
+  "icons": {
+	"16": "icon_16.png",
+	"128": "icon_128.png"
+  },
+  "permissions": [ "notifications" ]
+}
